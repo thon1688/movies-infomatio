@@ -1,0 +1,240 @@
+.movie-detail-section {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.movie-detail-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movie-detail-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    color: #fff;
+}
+
+.movie-detail-section img.img-fluid {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.movie-detail-section .display-4 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.movie-detail-section .text-muted {
+    color: #cecaca !important;
+}
+
+.movie-detail-section .text-muted i {
+    color: #e2d703;
+    margin-right: 5px;
+}
+
+.imdb-rating-detail {
+    background-color: #e2d703;
+    color: #242c38;
+    font-weight: 700;
+}
+
+.movie-info strong {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.movie-info p {
+    margin-bottom: 10px;
+}
+
+.btn-danger {
+    background-color: #e2d703;
+    border: none;
+    color: #242c38;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+    background-color: #fff;
+    color: #242c38;
+}
+
+.btn-outline-light {
+    border: 2px solid #e2d703;
+    color: #e2d703;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-outline-light:hover {
+    background-color: #e2d703;
+    border-color: #e2d703;
+    color: #242c38;
+}
+
+.movie-card-link {
+    text-decoration: none;
+}
+
+.movie-card-custom {
+    transition: 0.3s ease-in-out;
+}
+
+.movie-card-custom:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card-custom .card-img-top {
+    border-radius: 6px;
+}
+
+.movie-card-custom .card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.movie-meta-icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.movie-meta-icons .imdb-rating {
+    color: #e2d703;
+    font-weight: 600;
+}
+
+.social-links a {
+    background-color: #242c38;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    background-color: #e2d703;
+    color: #242c38 !important;
+}
+
+.suggested-movies-section {
+    background-color: #1a1a1a;
+    padding: 50px 0;
+}
+
+.suggested-movies-section .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.suggested-movies-section .card:hover {
+    transform: translateY(-5px);
+}
+
+.suggested-movies-section .card img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-detail-section .col-md-8 {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
+.movie-card {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding: 16px;
+    text-align: center;
+}
+
+.movie-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.movie-rating {
+    font-size: 0.875rem;
+    color: #ccc;
+    margin-bottom: 16px;
+}
+
+.btn-view-details {
+    display: inline-block;
+    background-color: #ffc107;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-view-details:hover {
+    background-color: #e0a800;
+}
+
+.search-input {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.search-button {
+    color: #ffc107;
+    font-size: 1.25rem;
+}
+
+.pagination-container {
+    margin-top: 32px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .movie-detail-section {
+        padding-top: 80px;
+    }
+    
+    .movie-detail-section .display-4 {
+        font-size: 32px;
+    }
+    
+    .movie-info {
+        margin-top: 2rem;
+    }
+}
