@@ -46,7 +46,7 @@
                         <div class="input-group">
                             <input type="text" name="search" class="form-control bg-white text-black border-secondary" 
                                 placeholder="Search all content..." value="{{ request('search') }}">
-                            <button class="btn btn-outline-light" type="submit">
+                            <button class="btn btn-outline" type="submit">
                                 <i class="fas fa-search"></i>
                             </button>
                         </div>
@@ -54,7 +54,7 @@
 
                     <div class="d-flex">
                         @if (Route::has('login'))
-                            <a href="{{ route('login') }}" class="btn btn-outline-light">Sign In</a>
+                            <a href="{{ route('login') }}" class="btn btn-outline">Sign In</a>
                         @endif
                     </div>
                 </div>
