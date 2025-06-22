@@ -18,7 +18,7 @@
             <div class="col-lg-6">
                 <h1 class="display-4 fw-bold mb-4">Unlimited Movies & TV Shows</h1>
                 <p class="lead mb-4">Watch anywhere. Stream movies and TV shows on your phone, tablet, laptop, and TV.</p>
-                <a href="{{ route('movies') }}" class="btn btn-primary btn-lg px-5">Watch Now</a>
+                <a href="{{ route('movies') }}" class="btn btn-lg px-5">Watch Now</a>
             </div>
         </div>
     </section>
