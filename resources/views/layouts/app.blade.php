@@ -54,7 +54,7 @@
 
                     <div class="d-flex">
                         @if (Route::has('login'))
-                            <a href="{{ route('login') }}" class="btn btn-info">Sign In</a>
+                            <a href="{{ route('login') }}" class="btn btn-primary">Sign In</a>
                         @endif
                     </div>
                 </div>
