@@ -44,7 +44,7 @@
                     
                     <form class="d-flex me-3" action="{{ route('search') }}" method="GET">
                         <div class="input-group">
-                            <input type="text" name="search" class="form-control bg-dark text-white border-secondary" 
+                            <input type="text" name="search" class="form-control bg-white text-black border-secondary" 
                                 placeholder="Search all content..." value="{{ request('search') }}">
                             <button class="btn btn-outline-light" type="submit">
                                 <i class="fas fa-search"></i>
