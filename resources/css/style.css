@@ -1,8 +1,8 @@
 /* Custom properties for colors */
 :root {
     --primary-color: #6fa8dc;
-    --bg-main: #fff;
-    --card-bg: #fff;
+    --bg-main: #000000;
+    --card-bg: #000000;
     --text-main: #222;
     --text-muted: #666;
     --hover-transition: all 0.3s ease-in-out;
