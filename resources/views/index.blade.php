@@ -18,12 +18,7 @@
             <div class="col-lg-6">
                 <h1 class="display-4 fw-bold mb-4">Unlimited Movies & TV Shows</h1>
                 <p class="lead mb-4">Watch anywhere. Stream movies and TV shows on your phone, tablet, laptop, and TV.</p>
-                <a href="{{ route('movies') }}" class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-green-600 to-green-500 rounded-lg shadow-lg hover:from-green-500 hover:to-green-400 hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-in-out">
-    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-        <path d="M8 5v10l8-5-8-5z"/>
-    </svg>
-    Watch Now
-</a>
+                <a href="{{ route('movies') }}" class="btn btn-lg bg-green-600 hover:bg-green-400 text-white px-5">Watch Now</a>
             </div>
         </div>
     </section>
