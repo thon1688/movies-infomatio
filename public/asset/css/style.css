@@ -134,7 +134,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #fff;
+    background-color: var(--primary-color);
     color: var(--dark-bg);
     transform: translateY(-2px);
     border: 1px solid var(--primary-color);
